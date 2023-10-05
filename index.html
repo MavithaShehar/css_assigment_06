@@ -2,9 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Assignment 06</title>
+    <title>Dash bord</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale1.0" >
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/dash.css">
+
 </head>
+
 <body>
 
+<nav id="nav_bar" class="navbar bg-body-tertiary mb-3">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" style="color: white">
+            <img src="assets/img/Group%2035.png" alt="Logo" class="d-inline-block align-text-top" >
+        </a>
+        <ul class="nav nav-underline">
+            <li id="aaa" class="nav-item">
+                <a id="dashboard" class="nav-link" aria-current="page" href="index.html">Dashboard</a>
+            </li>
+            <li class="nav-item">
+                <a id="customer" class="nav-link active" href="customer.html">Customer</a>
+            </li>
+            <li class="nav-item">
+                <a id="item" class="nav-link" href="items.html">Item</a>
+            </li>
+            <li class="nav-item">
+                <a id="orders" class="nav-link" href="orders.html">Order</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<!-----  02 contend ----->
+
+<div class="container">
+<div class="row mt-5" id ="dash_bord">
+
+    <div class="col col-lg-6 col-md-6 col-sm-12 col-12 card mb-5">
+        <div class="card_body">
+            <h1 class="card_label mb-2">Today Total Amount</h1>
+            <h2 class="card_label mb-2">LKR :</h2>
+            <h2>1000.00</h2>
+        </div>
+    </div>
+
+    <div class="col col-lg-6 col-md-6 col-sm-12 col-12 card mb-5">
+        <div class="card_body">
+            <h1 class="card_label mb-2">Today Total Sales</h1>
+            <h2 class="card_label mb-2">100</h2>
+        </div>
+    </div>
+
+    <div class="col col-lg-6 col-md-6 col-sm-12 col-12 card mb-5">
+        <div class="card_body">
+            <h1 class="card_label mb-2">Register customer</h1>
+            <h2 class="card_label mb-2">500</h2>
+        </div>
+    </div>
+
+
+
+
+</div>
+</div>
+
+
+
+
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>

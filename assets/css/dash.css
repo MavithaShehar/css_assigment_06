@@ -1,0 +1,57 @@
+* {
+    position: relative;
+}
+#nav_bar {
+    padding: 0;
+}
+
+#nav_bar .nav-link{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+nav div {
+    background-color: #2a78de;
+}
+
+.navbar-brand>img{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}
+
+
+.card {
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.card_body {
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #2fd4e8;
+    border-radius: 5px;
+    color: white;
+}
+
+.card_body h1 {
+    font-size: 30px;
+    text-align: center;
+}
+.card_body > h2 {
+    font-size: 35px;
+    color: black;
+}
+
+.chart {
+    width: 85%;
+    height: 80%;
+}
