@@ -1,0 +1,56 @@
+* {
+    position: relative;
+}
+#nav_bar {
+    padding: 0;
+}
+
+#nav_bar .nav-link{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+nav div {
+    background-color: #2a78de;
+}
+
+.navbar-brand>img{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}
+
+#dashboard, #customer, #item, #order {
+    font-weight: 600;
+    color: #1f1f1f;
+}
+
+#search {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 50%;
+}
+
+.form-label{
+    font-weight: bold;
+}
+
+#id, #name, #address, #salary, #price, #qty {
+    border: 1px solid black;
+}
+
+.buttons button {
+    width: 28%;
+}
+
+table tbody, table thead {
+    border: 2px solid #0dcaf0;
+}
+
+.table>thead{
+    border: 5px solid #4786ee;
+}
+
